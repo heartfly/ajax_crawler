@@ -1,2 +1,2 @@
-Scrapy>=0.22.0
+Scrapy>=0.12.0
 configobj
