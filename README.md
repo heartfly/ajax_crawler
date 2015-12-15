@@ -16,7 +16,7 @@ like this
 [dianping_beijingyumao] # crawler name, should be the same as config file name.
 allowed_domains = dianping.com # domain name, can be a list.
 start_urls = http://www.dianping.com/search/category/2/45/g152 # start url, should be a certain url.
-list_url_pattern = .*category/2/45/g152[p\d]* #list url pattern # list url patern, you can use regular expressions here.
+list_url_pattern = .*category/2/45/g152[p\d]* # list url pattern # list url patern, you can use regular expressions here.
 list_restrict_xpaths = '<<//div[@class="page"]//a/@href>>' # list restrict xpaths, we use this to find item urls.
 list_content = list,item # decide what kind of content you can find in the list restrict xpaths.
 item_url_pattern = .*shop/\d+ # item url patter, you can use regular expressions here.
