@@ -7,7 +7,7 @@ Easy to use: To customize a new web crawler, You just need to write a config fil
 
 # Usage
 * Edit A Config File In The 'Configs' Directory
-```
+```bash
 cd configs
 touch xxx.cfg
 vim xxx.cfg
@@ -34,6 +34,6 @@ item_sport_xpaths = "羽毛球" # also can be a certain string
 download_delay = 5 # downlaod delay to reduce crawling frequency
 ```
 * Then Just Run The Crawler
-```
+```bash
 scrapy crawl xxx
 ```
