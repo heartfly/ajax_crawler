@@ -13,7 +13,7 @@ touch xxx.cfg
 vim xxx.cfg
 ```
 like this
-```python
+```INI
 [dianping_beijingyumao] # crawler name, should be the same as config file name.
 allowed_domains = dianping.com # domain name, can be a list.
 start_urls = http://www.dianping.com/search/category/2/45/g152 # start url, should be a certain url.
