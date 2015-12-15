@@ -34,7 +34,6 @@ item_sport_xpaths = "羽毛球" # also can be a certain string
 download_delay = 5 # downlaod delay to reduce crawling frequency
 #js_parser = on # decide should use WebKit tool to parse js and redraw web
 ```
-NOTICE: js_parser will reduce the crawling efficiency
 * Then Just Run The Crawler
 ```bash
 scrapy crawl xxx
