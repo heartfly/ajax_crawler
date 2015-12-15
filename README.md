@@ -32,6 +32,7 @@ item_cover_image_xpaths = <<//img[@itemprop="photo"]/@src>>
 item_hours_xpaths = <<//div[@class="desc-info"]//ul/li/span[@class="J_full-cont"]/text()>>
 item_sport_xpaths = "羽毛球" # also can be a certain string
 download_delay = 5 # downlaod delay to reduce crawling frequency
+#js_parser = yes # decide should use WebKit tool to parse js and redraw web
 ```
 * Then Just Run The Crawler
 ```bash
