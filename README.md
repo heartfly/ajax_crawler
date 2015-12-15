@@ -7,7 +7,7 @@ Easy to use: To customize a new web crawler, You just need to write a config fil
 
 # Usage
 * Edit A Config File In The 'Configs' Directory
-```bash
+```shell
 cd configs
 touch xxx.cfg
 vim xxx.cfg
