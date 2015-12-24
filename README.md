@@ -14,7 +14,7 @@ vim xxx.cfg
 ```
 like this
 ```INI
-[dianping_beijingyumao] # crawler name, should be the same as config file name.
+[xxx] # crawler name, should be the same as config file name.
 allowed_domains = dianping.com # domain name, can be a list.
 start_urls = http://www.dianping.com/search/category/2/45/g152 # start url, should be a certain url.
 list_url_pattern = .*category/2/45/g152[p\d]* # list url pattern # list url patern, you can use regular expressions here.
